@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+
+  }
+
+  .title {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+  }
+  .tagged{
+    text-align: right;
+    font-size:medium;
+  }
+  .container {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: rgb(247, 174, 174);
+  }
+
+  .editor-container, .preview-container {
+    width: 48%;
+    margin: 0 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #previewer {
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    background-color: #ebf1fe;
+  }
+
+  .badge {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: inline-block;
+  }
